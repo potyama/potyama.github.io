@@ -1,1 +1,13 @@
-p{color:blue;}
+body{
+  font-family:"Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
+  background-color:#fafafa;
+}
+header{
+  margin: 40px 80px;
+}
+.menu{
+  float: left;
+  display: inline;
+  text-align: left;
+  margin-right: 23px;
+  }
