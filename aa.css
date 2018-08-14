@@ -6,10 +6,10 @@ header{
   margin: 20px 80px;
 }
 #topmain{
-  height:500px;
+  height:50px;
   background-color:#FF69B4;
   text-align: center;
-  top:24%;
+  /*top:24%;*/
 }
 
 .menu{
