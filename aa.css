@@ -5,13 +5,38 @@ body{
 header{
   margin: 40px 80px;
 }
+
 .menu{
   float: left;
   display: inline;
   text-align: left;
-  margin-right: 23px;
+  l-right: 23px;
   }
 .imgintro{
   float:left;
   margin-right:20px
+}
+.school{
+  border-bottom: 2px solid #00FFFF;
+  font-size: 20px;
+}
+.school h2{
+  font-size:16px;
+  color:#A9A9A9;
+}
+.school span{
+  color:#00FF00;
+  font-size:17px;
+}
+.liketodo{
+ border-bottom: 2px solid #00FFFF;
+ font-size:20px;
+}
+.liketodo h2{
+  font-size: 16px;
+  color: #FF4500;
+}
+.liketodo span{
+  font-size:16px;
+  color:#FFA500;
 }
