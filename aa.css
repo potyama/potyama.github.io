@@ -5,6 +5,12 @@ body{
 header{
   margin: 20px 80px;
 }
+#topmain{
+  height:500px;
+  background-color:#FF69B4;
+  text-align: center;
+  top:24%;
+}
 
 .menu{
   float: left;
@@ -19,6 +25,7 @@ header{
 .school{
   border-bottom: 2px solid #00FFFF;
   font-size: 20px;
+  color:#00BFFF;
 }
 .school h2{
   font-size:16px;
@@ -31,6 +38,7 @@ header{
 .liketodo{
  border-bottom: 2px solid #00FFFF;
  font-size:20px;
+ color:#00BFFF;
 }
 .liketodo h2{
   font-size: 16px;
