@@ -1,16 +1,16 @@
 body{
   font-family:"Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
-  background-color:#fafafa;
+  background-color:#2F4F4F;
 }
 header{
-  margin: 40px 80px;
+  margin: 20px 80px;
 }
 
 .menu{
   float: left;
   display: inline;
   text-align: left;
-  l-right: 23px;
+  margin-right: 23px;
   }
 .imgintro{
   float:left;
