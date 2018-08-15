@@ -7,8 +7,11 @@ header{
   margin: 20px 80px;
 }
 #topmain{
-  height:30px;
+  height:34px;
+  weight:150px;
   background-color:#FF69B4;
+  background-position: 50% 50%;
+  background-attachment: fixed;
   text-align: center;
   top:24%;
 }
