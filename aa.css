@@ -26,28 +26,28 @@ header{
   margin-right:20px
 }
 .school{
-  border-bottom: 2px solid #00FFFF;
+  border-bottom: 2px solid #0FF;
   font-size: 20px;
-  color:#00BFFF;
+  color:#F0F;
 }
 .school h2{
   font-size:16px;
-  color:#A9A9A9;
+  color:#F0F;
 }
 .school span{
-  color:#00FF00;
+  color:#F0F;
   font-size:17px;
 }
 .liketodo{
  border-bottom: 2px solid #00FFFF;
  font-size:20px;
- color:#00BFFF;
+ color:#F0F;
 }
 .liketodo h2{
   font-size: 16px;
-  color: #FF4500;
+  color: #F0F;
 }
 .liketodo span{
   font-size:16px;
-  color:#FFA500;
+  color:#F0F;
 }
