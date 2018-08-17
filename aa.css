@@ -23,18 +23,22 @@ header{
   }
 .imgintro{
   float:left;
-  margin-right:20px
+  margin:0 20px
 }
 .school{
   font-size: 20px;
   color:#F0F;
 }
+.title{
+  color:#F0F;
+  float:left;
+  margin:0 20px;
+
+}
 .school h2{
   font-size:16px;
-  color:#F0F;
 }
 .school span{
-  color:#F0F;
   font-size:17px;
 }
 .liketodo{
@@ -43,11 +47,9 @@ header{
 }
 .liketodo h2{
   font-size: 16px;
-  color: #F0F;
 }
 .liketodo span{
-  font-size:16px;
-  color:#F0F;
+  font-size:16px;;
 }
 .border{
   border-bottom: 2px solid #0FF;
