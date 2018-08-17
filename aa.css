@@ -26,7 +26,6 @@ header{
   margin-right:20px
 }
 .school{
-  border-bottom: 2px solid #0FF;
   font-size: 20px;
   color:#F0F;
 }
@@ -39,7 +38,6 @@ header{
   font-size:17px;
 }
 .liketodo{
- border-bottom: 2px solid #00FFFF;
  font-size:20px;
  color:#F0F;
 }
@@ -50,4 +48,8 @@ header{
 .liketodo span{
   font-size:16px;
   color:#F0F;
+}
+.border{
+  border-bottom: 2px solid #0FF;
+
 }
