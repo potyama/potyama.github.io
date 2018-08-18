@@ -48,6 +48,6 @@ header{
 }
 .homeimg{
   border-radius: 40px;
-  height: 80px;
-  width: 80px;
+  width:100px;
+  height:80px;
 }
