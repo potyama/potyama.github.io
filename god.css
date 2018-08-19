@@ -7,6 +7,10 @@ header{
   margin: 20px 80px;
 }
 /* index↓*/
+#topintro{
+  background-color:#000;
+}
+
 .homeimg{
   border-radius: 50%;
   width:100px;
@@ -25,8 +29,7 @@ header{
   top:24%;
 }
 .main{
-  height:100px;
-  background-color:#000;
+
 }
 
 .menu{
