@@ -6,6 +6,13 @@ body{
 header{
   margin: 20px 80px;
 }
+/* index↓*/
+#topintro{
+  background-color: #FFF:
+}
+
+
+/*intro↓*/
 #topmain{
   height:40px;
   background-color:#FF69B4;
@@ -52,6 +59,7 @@ header{
 }
 .homeimg{
   border-radius: 50%;
-  width:60px;
-  height:100px;
+  width:100px;
+  height:80px;
+  position:relative;
 }
