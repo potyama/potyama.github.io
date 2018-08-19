@@ -5,12 +5,12 @@ header{
 /* index↓*/
 body index{
   font-family:"Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
-  background-color:#FFF;
+  background-color:#000;
   margin: 0 0.5px;
 }
 
 #topintro{
-  background-color:#000;
+  
 }
 
 .homeimg{
@@ -25,7 +25,7 @@ body index{
   display: inline;
   text-align: left;
   margin-right: 23px;
-  font-size:120px;
+  font-size:70px;
   position:relative;
   }
 
