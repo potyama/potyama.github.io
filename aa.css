@@ -10,6 +10,12 @@ header{
 #topintro{
   background-color: #FFF:
 }
+.homeimg{
+  border-radius: 50%;
+  width:100px;
+  height:80px;
+  position:relative;
+}
 
 
 /*intro↓*/
@@ -56,10 +62,4 @@ header{
 .link{
   font-size:22px;
   margin:0 80px;
-}
-.homeimg{
-  border-radius: 50%;
-  width:100px;
-  height:80px;
-  position:relative;
 }
