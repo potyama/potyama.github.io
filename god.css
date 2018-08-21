@@ -54,6 +54,7 @@ body intro{
 }
 .school{
   color:#F0F
+  margin:0 80px;
 }
 .like{
  color:#F0F;
@@ -63,6 +64,7 @@ body intro{
 }
 .title{
   font-size:26px;
+  margin: 10px 80px;
 }
 .passage{
   font-size:22px;
@@ -70,4 +72,5 @@ body intro{
 }
 .link{
   font-size:22px;
+  margin: 0 80px;
 }
