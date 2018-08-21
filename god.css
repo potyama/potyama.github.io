@@ -48,16 +48,6 @@ body intro{
 .main{
 
 }
-.imgintro{
-  float:left;
-  margin:0 80px;
-}
-.school{
-  color:#F0F;
-}
-.like{
- color:#F0F;
-}
 .border{
   border-bottom: 2px solid #0FF;
 }
@@ -72,4 +62,17 @@ body intro{
 .link{
   font-size:22px;
   margin: 0 80px;
+}
+.imgintro{
+  float:left;
+  margin:0 80px;
+}
+.school{
+  color:#F0F;
+}
+.like{
+ color:#F0F;
+}
+.award{
+  color:#F0F;
 }
