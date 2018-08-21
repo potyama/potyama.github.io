@@ -8,6 +8,9 @@ body index{
   background-color:#000;
   margin: 0 0.5px;
 }
+.intro{
+  float:left;
+}
 
 #topintro{
 
