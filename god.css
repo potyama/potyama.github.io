@@ -51,6 +51,15 @@ body intro{
 .main{
 
 }
+.sns{
+  color:#F0F;
+  float:left;
+}
+.game{
+  color:#F0F;
+  float:left; 
+}
+
 .border{
   border-bottom: 2px solid #0FF;
 }
