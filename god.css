@@ -1,55 +1,17 @@
-/*all　apply */
-header{
-  margin: 20px 80px;
-}
-/* index↓*/
-body index{
-  font-family:"Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
-  background-color:#000;
-  margin: 0 0.5px;
-}
-.intro{
-  float:left;
-}
-
-#topintro{
-
-}
-
-.homeimg{
-  border-radius: 50%;
-  width:100px;
-  height:80px;
-  position:relative;
-  float:left;
-}
-.menu{
-  float: left;
-  display: inline;
-  text-align: left;
-  margin-right: 23px;
-  font-size:40px;
-  position:relative;
-  }
-
-
 /*intro↓*/
-body intro{
+body {
   font-family:"Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
   background-color:#32CD32;
   margin: 0 0.5px;
 }
 
-#topmain{
+#header{
   height:40px;
   background-color:#FF69B4;
   background-position: 50% 50%;
   background-attachment: fixed;
   text-align: center;
   top:24%;
-}
-.main{
-
 }
 .border{
   border-bottom: 2px solid #0FF;
@@ -67,18 +29,8 @@ body intro{
   margin: 0 80px;
 }
 .imgintro{
-  /*float:left;*/
   margin:0 80px;
 }
-.account{
-  color:#F0F;
-}
-.school{
-  color:#F0F;
-}
-.like{
- color:#F0F;
-}
-.award{
+.contents{
   color:#F0F;
 }
