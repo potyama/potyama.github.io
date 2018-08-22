@@ -6,10 +6,10 @@ body {
 }
 
 #header{
-  height:40px;
+  background-attachment: fixed;
   background-color:#FF69B4;
   background-position: 50% 50%;
-  background-attachment: fixed;
+  height:40px;
   text-align: center;
   top:24%;
 }
@@ -29,9 +29,9 @@ body {
   margin: 0 80px;
 }
 .pic{
-margin:0 80px;
-width:100px;
-height:80px;
+  height:80px;
+  margin:0 80px;
+  width:100px;
 }
 .contents{
   color:#F0F;
