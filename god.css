@@ -28,8 +28,10 @@ body {
   font-size:22px;
   margin: 0 80px;
 }
-.imgintro{
-  margin:0 80px;
+.pic{
+margin:0 80px;
+width:100px;
+height:80px;
 }
 .contents{
   color:#F0F;
