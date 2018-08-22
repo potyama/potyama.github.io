@@ -19,10 +19,12 @@ body {
 .title{
   font-size:26px;
   margin: 10px 80px;
+  color:#F0F
 }
 .passage{
   font-size:22px;
   margin: 10px 80px;
+  color:#28b;
 }
 .link{
   font-size:22px;
@@ -30,11 +32,9 @@ body {
 }
 .pic{
   height:80px;
-  margin-top: 60px;
-  margin-bottom: 30px;
-  margin:0 80px;
+  margin:40px 80px 30px;
   width:100px;
 }
 .contents{
-  color:#F0F;
+  margin: 10px 80px;
 }
