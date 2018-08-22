@@ -30,6 +30,8 @@ body {
 }
 .pic{
   height:80px;
+  margin-top: 60px;
+  margin-bottom: 30px;
   margin:0 80px;
   width:100px;
 }
