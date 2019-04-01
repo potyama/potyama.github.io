@@ -1,18 +1,7 @@
 html{
   background-color:#063;
 }
-@font-face {
-    font-family: 'HuiFontP109';
-    src:url('/fonts/public/HuiFont/HuiFontP109.eot');
-    src:url('/fonts/public/HuiFont/HuiFontP109.eot?#iefix') format('embedded-opentype'),
-url('/fonts/public/HuiFont/HuiFontP109.woff')format('woff'),
-url('/fonts/public/HuiFont/HuiFontP109.ttf')format('truetype'),
-url('/fonts/public/HuiFont/HuiFontP109.svg#HuiFontP109') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
 #tophistory{
-  font-family: HuiFontP109;
 color: #fff;
 background-color: #114400;
 margin: 10px 0 10px 0;
