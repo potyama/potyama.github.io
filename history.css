@@ -23,7 +23,9 @@ line-height: 1.9;
 .history{
   color:#ffb1b3;
   font-weight:bold;
-  border-bottom: 3.2px solid #ffb1b3;
+}
+.main{
+  border-bottom: solid 3.2px #ffb1b3;
 }
 
 img{
