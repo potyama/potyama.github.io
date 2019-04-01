@@ -27,5 +27,6 @@ header{
 }
 .intro{
   font-size:25px;
-  color:#C60
+  color:#C60;
+  float:left;
 }
