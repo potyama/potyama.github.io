@@ -1,11 +1,37 @@
 html{
   background-color:#063;
 }
+@font-face {
+    font-family: 'HuiFontP109';
+    src:url('/fonts/public/HuiFont/HuiFontP109.eot');
+    src:url('/fonts/public/HuiFont/HuiFontP109.eot?#iefix') format('embedded-opentype'),
+url('/fonts/public/HuiFont/HuiFontP109.woff')format('woff'),
+url('/fonts/public/HuiFont/HuiFontP109.ttf')format('truetype'),
+url('/fonts/public/HuiFont/HuiFontP109.svg#HuiFontP109') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 #tophistory{
+  font-family: HuiFontP109;
+color: #fff;
+background-color: #114400;
+margin: 10px 0 10px 0;
+padding: 15px;
+border: 9px solid #a60;
+border-radius: 3px;
+box-shadow: 2px 2px 4px #666, 2px 2px 2px #111 inset;
+text-shadow: 0px 0px 2px #000;
+line-height: 1.9;
 }
 
 .center{
   text-align: center;
+}
+
+.history{
+  color:#33f;
+  font-weight:bold;
+  border: 3.2px solid #33f;
 }
 
 img{
