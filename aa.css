@@ -20,11 +20,12 @@ header{
 }
 .intro-name{
   font-size:30px;
-  color:#4169e1 /*royalblue*/
+  color:#4169e1; /*royalblue*/
   float:left;
+  margin-bottom:15px;
   margin-left:15px;
 }
 .intro{
   font-size:25px;
-  color:#F63
+  color:#C60
 }
