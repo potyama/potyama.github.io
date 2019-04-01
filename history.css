@@ -4,9 +4,12 @@ html{
 #tophistory{
 }
 
-.img{
-  padding: 20px;
+.center{
   text-align: center;
+}
+
+img{
+  padding: 20px;
   height: 100px;
 }
 
