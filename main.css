@@ -7,6 +7,14 @@ html, body{
   margin: 20px 80px;
 }*/
 
+.homeimg{
+  border-radius: 80%;
+  width:70px;
+  height:70px;
+  position:relative;
+  float:left;
+}
+
 .intro-name {
   position: absolute;
   top: 50%; left: 50%;
@@ -20,20 +28,13 @@ html, body{
   transform: translate(-50%, -50%);
   transition: all 1s ease 0s;
 }
-link:hover {
+.intro-name:hover {
   box-shadow: 0 0 30px, rgba(0,0,0,0.2);
 }
 /* index↓*/
 /*
 #topintro{
   background-color: #fff:
-}
-.homeimg{
-  border-radius: 80%;
-  width:70px;
-  height:70px;
-  position:relative;
-  float:left;
 }
 
 .intro{
