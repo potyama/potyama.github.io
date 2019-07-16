@@ -9,8 +9,8 @@ html, body{
 
 .homeimg{
   border-radius: 80%;
-  width:70px;
-  height:70px;
+  width:40px;
+  height:40px;
   position:relative;
   float:left;
 }
@@ -21,15 +21,15 @@ html, body{
   display: block;
   font-size: 20px;
   text-decoration: none;
-  color:#4169e1;*/ /*royalblue*/
+  color:#4169e1; /*royalblue*/
   padding: 20%;
   border-radius: 20px;
-  background-color: #fff:
+  background-color: #fff;
   transform: translate(-50%, -50%);
   transition: all 1s ease 0s;
 }
 .intro-name:hover {
-  box-shadow: 0 0 50px, rgba(0,0,0,0.2);
+  box-shadow: 0 0 30px, rgba(0,0,0,0.2);
 }
 /* index↓*/
 /*
