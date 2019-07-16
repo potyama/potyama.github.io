@@ -9,7 +9,7 @@ header{
 }
 /* index↓*/
 #topintro{
-  background-color: #FFF:
+  background-color: #fff:
 }
 .homeimg{
   border-radius: 80%;
@@ -18,12 +18,18 @@ header{
   position:relative;
   float:left;
 }
-.intro-name{
-  font-size:30px;
+.intro{
+  position: absolute;
+  top: 50%; left: 50%;
+  display: block;
+  text-decoration: none;
   color:#4169e1; /*royalblue*/
-  margin-bottom:15px;
-  margin-left:15px;
+  padding: 20%;
+  border-radius: 20px;
+  transform: translate(-50%, -50%);
+  transition: all ls ease 0s;
 }
+
 .intro{
   margin:40px 40px;
   font-size:25px;
