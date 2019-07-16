@@ -1,6 +1,6 @@
 html, body{
   font-family:"Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
-  background-color:#3399CC;
+/*  background-color:#3399CC;*/
   margin: 0;
 }
 /*header{
@@ -21,16 +21,16 @@ html, body{
   display: block;
   font-size: 20px;
   text-decoration: none;
-  color:#4169e1; /*royalblue*/
+  color:#444; /*royalblue*/
   padding: 20px;
   border-radius: 20px;
-  background-color: #39C;
+  background-color: #fff;
   transform: translate(-50%, -50%);
   /*** ↓重要なのはここ ***/
   transition: all 1s ease 0s;
 }
 .intro-name:hover {
-  box-shadow: 0 0 30px rgba(51,153,204,0.2);
+  box-shadow: 0 0 30px rgba(0,0,0,0.2);
 }
 /* index↓*/
 
