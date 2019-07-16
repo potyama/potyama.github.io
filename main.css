@@ -24,7 +24,7 @@ html, body{
   color:#4169e1; /*royalblue*/
   padding: 20px;
   border-radius: 20px;
-  background-color: #fff;
+  background-color: #4169e1;
   transform: translate(-50%, -50%);
   /*** ↓重要なのはここ ***/
   transition: all 1s ease 0s;
