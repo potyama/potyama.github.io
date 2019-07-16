@@ -24,13 +24,13 @@ html, body{
   color:#4169e1; /*royalblue*/
   padding: 20px;
   border-radius: 20px;
-  background-color: #4169e1;
+  background-color: #39C;
   transform: translate(-50%, -50%);
   /*** ↓重要なのはここ ***/
   transition: all 1s ease 0s;
 }
 .intro-name:hover {
-  box-shadow: 0 0 30px rgba(0,0,0,0.2);
+  box-shadow: 0 0 30px rgba(51,153,204,0.2);
 }
 /* index↓*/
 
