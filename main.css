@@ -17,7 +17,7 @@ html, body{
 
 .intro-name {
   position: absolute;
-  top: 50%; left: 50%;
+  top: 10%; left: 40%;
   display: block;
   font-size: 20px;
   text-decoration: none;
@@ -29,7 +29,7 @@ html, body{
   transition: all 1s ease 0s;
 }
 .intro-name:hover {
-  box-shadow: 0 0 30px, rgba(0,0,0,0.2);
+  box-shadow: 0 0 50px, rgba(0,0,0,0.2);
 }
 /* index↓*/
 /*
