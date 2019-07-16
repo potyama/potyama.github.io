@@ -17,7 +17,7 @@ html, body{
 
 .intro-name {
   position: absolute;
-  top: 10%; left: 40%;
+  top: 50%; left: 50%;
   display: block;
   font-size: 20px;
   text-decoration: none;
