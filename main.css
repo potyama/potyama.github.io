@@ -18,7 +18,7 @@ header{
   position:relative;
   float:left;
 }
-.intro{
+.intro-name{
   position: absolute;
   top: 50%; left: 50%;
   display: block;
@@ -31,7 +31,7 @@ header{
 }
 
 .intro{
-  margin:40px 40px;
+  margin:40px 40px;;
   font-size:25px;
   color:#C60;
 }
