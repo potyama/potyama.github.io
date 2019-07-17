@@ -11,8 +11,10 @@ header{
   border-radius: 80%;
   width:40px;
   height:40px;
-  position:relative;
-  float:left;
+  position:fixed;
+  top:0;
+  left:0;
+  /*float:left;*/
 }
 
 .intro-name {
@@ -44,5 +46,5 @@ p.intro-name:hover {
   margin:40px 40px;
   font-size:25px;
   color:#C60;
-  padding-top:10px;
+  padding-top:100px;
 }
