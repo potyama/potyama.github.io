@@ -29,7 +29,7 @@ header{
   /*** ↓重要なのはここ ***/
   transition: all 1s ease 0s;
 }
-.intro-name:hover {
+p.intro-name:hover {
   box-shadow: 0 0 30px rgba(0,0,0,0.5);
 }
 
@@ -41,7 +41,8 @@ header{
 }
 
 .intro{
-  margin:40px 40px;;
+  margin:40px 40px;
   font-size:25px;
   color:#C60;
+  padding-top:10px;
 }
