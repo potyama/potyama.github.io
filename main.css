@@ -11,16 +11,16 @@ header{
   border-radius: 80%;
   width:40px;
   height:40px;
-  position:fixed;
-  top:0;
-  left:0;
-  /*float:left;*/
+  border-top: 0;
+  padding-top:0;
+  position:relative;
+  float:left;
 }
 
 .intro-name {
   position: absolute;
   top: 0%; left: 10%;
-  display: block;
+  display: inline-block;
   font-size: 20px;
   text-decoration: none;
   color:#4169e1; /*royalblue*/
