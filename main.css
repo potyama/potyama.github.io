@@ -32,9 +32,10 @@ html, body{
 .intro-name:hover {
   box-shadow: 0 0 30px rgba(0,0,0,0.5);
 }
+
 /* index↓*/
 
-/*
+
 #topintro{
   background-color: #fff:
 }
@@ -44,4 +45,3 @@ html, body{
   font-size:25px;
   color:#C60;
 }
-*/
