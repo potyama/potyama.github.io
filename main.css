@@ -1,50 +1,51 @@
 html, body{
   font-family:"Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
-  background-color:#3399CC;
+  background-color:#3399cc;
   margin: 0;
 }
 header{
   margin: 20px 80px;
 }
 
-.homeimg{
-  border-radius: 80%;
+img.homeimg{
+  border-radius:80%;
+  display:block;
   width:40px;
   height:40px;
-  border-top: 0;
-  padding-top:0;
-  position:relative;
-  float:left;
 }
 
 .intro-name {
-  position: absolute;
-  top: 0%; left: 10%;
-  display: inline-block;
+  position: fixed;
+  top: 0%; left: 11.5%;
+  display: inline;
   font-size: 20px;
   text-decoration: none;
   color:#4169e1; /*royalblue*/
   padding: 20px;
   border-radius: 20px;
-  background-color: #39c;
-  transform: translate(-50%, -50%);
-  /*** ↓重要なのはここ ***/
-  transition: all 1s ease 0s;
+  background-color: #03dbfc;
+  transform: translate(-60%, -50%);
+  transition: all 1.5s ease 0s;
 }
 p.intro-name:hover {
   box-shadow: 0 0 30px rgba(0,0,0,0.5);
 }
 
-/* index↓*/
-
+.intro:visited{
+    text-decoration: underline;
+    text-decoration-color: #C60;
+}
 
 #topintro{
   background-color: #fff:
 }
 
 .intro{
-  margin:40px 40px;
-  font-size:25px;
-  color:#C60;
-  padding-top:100px;
+    display: inline;
+    float:left;
+    padding: 1px 10px;
+    text-decoration: underline;
+    font-size:25px;
+    color:#C60;
+    clear: both;
 }
