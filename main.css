@@ -1,7 +1,12 @@
+*{
+  margin: 0;
+  padding: 0;
+}*
+
+
 html, body{
   font-family:"Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
   background-color:#3399cc;
-  margin: 0;
 }
 header{
   margin: 20px 80px;
@@ -16,12 +21,12 @@ img.homeimg{
 
 .intro-name {
   position: fixed;
-  top: 0%; left: 11.5%;
+  top: 3.0%; left: 5.5%;
   display: inline;
   font-size: 20px;
   text-decoration: none;
   color:#4169e1; /*royalblue*/
-  padding: 20px;
+  padding: 10px;
   border-radius: 20px;
   background-color: #03dbfc;
   transform: translate(-60%, -50%);
@@ -43,7 +48,7 @@ p.intro-name:hover {
 .intro{
     display: inline;
     float:left;
-    padding: 1px 10px;
+    padding: 5px 10px;
     text-decoration: underline;
     font-size:25px;
     color:#C60;
