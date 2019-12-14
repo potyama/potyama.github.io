@@ -7,6 +7,10 @@
 html, body{
   font-family:"Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
   background-color:#3399cc;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
 header{
   margin: 20px 80px;
@@ -16,26 +20,32 @@ img.homeimg{
   margin-left: auto;
   margin-right: auto;
   border-radius:80%;
-  display:block;
   width:256px;
   height:256px;
 }
 
+#container{
+    width:100%;
+    position: relative;
+    left: 50%;
+    margin-left: -50%;
+    text-align: center;
+    font-size: 45px;
+}
+
 .intro-name {
-  position: fixed;
-  top: 35.0%; left:52%;
-  display: inline;
-  font-size: 45px;
-  text-decoration: none;
-  color:#4169e1; /*royalblue*/
-  padding: 10px;
-  border-radius: 20px;
-  background-color: #03dbfc;
-  transform: translate(-60%, -50%);
-  transition: all 1.5s ease 0s;
+    width: 250px;
+    position: relative;
+    left:60%;
+    top: 10px;
+    color:#4169e1; /*royalblue*/
+    border-radius: 20px;
+    background-color: #03dbfc;
+    transform: translate(-125%, -10%);
+    transition: all 1.5s ease 0s;
 }
 p.intro-name:hover {
-  box-shadow: 0 0 30px rgba(0,0,0,0.5);
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
 }
 
 .intro:visited{
@@ -44,14 +54,15 @@ p.intro-name:hover {
 }
 
 #topintro{
-  background-color: #fff:
+    background-color: #fff;
+    position: relative;
 }
 
 .intro{
-    display: inline;
-    float:left;
+    display: block;
+    margin-top: 10px;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
     padding: 5px 10px;
     text-decoration: underline;
     text-align: center;
