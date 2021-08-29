@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta>
+    <script type="text/javascript" src="js/calc.js"></script>
+</head>
+
+<form class="Salary">
+    <dl>
+        <h2>時給を入力↓</h2>
+        <h3>研修などはその他に入力</h3>
+        <dt>通常(小、中)：</dt>
+        <dd><input type="number" class="box" name="sj_per_hour"></dd>
+        <dt>通常(高)：</dt>
+        <dd><input type="number" class="box" name="h_per_hour"></dd>
+        <dt>その他</dt>
+        <dd><input type="number" class="box" name="ad_per_hour"></dd>
+
+        <h2>コマ数</h2>
+        <dt>45分</dt>
+        <dd><input type="number" class="box" name="elem"></dd>
+        <dt>小、中</dt>
+        <dd><input type="number" class="box" name="juni"></dd>
+        <dt>高</dt>
+        <dd><input type="number" class="box" name="high"></dd>
+        <dt>前後給：</dt>
+        <dd><input type="number" class="box" name="ad_salary">
+        </dd>
+        <p><input type="button" class="calc-btn"
+                onclick="calc(elem.value, juni.value, high.value, h_per_hour.value, sj_per_hour.value, ad_salary.value, ad_per_hour.value);" value="計算"></p>
+
+        <dt>通常(45分):</dt>
+        <dd><input id="first" class="box" type="text" readonly=""></dd>
+        <dt>通常(小,中):</dt>
+        <dd><input id="second" class="box" type="text" readonly=""></dd>
+        <dt>通常(高):</dt>
+        <dd><input id="third" class="box" type="text" readonly=""></dd>
+        <dt>前後給：</dt>
+        <dd><input id="ad_normal" class="box" type="text" readonly=""></dd>
+        <dt>合計：</dt>
+        <dd><input id="total" class="box" type="text" readonly=""></dd>
+
+    </dl>
+</form>
+
+</html>
