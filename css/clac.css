@@ -2,7 +2,13 @@
     background: #fff;
     padding: 10px 30px;
 }
+form{
+    display: none;
+}
 
+input[type="checkbox"]:checked + form{
+    display: inline-block;
+}
 
 dl, h2{
     margin-left: auto;
@@ -13,7 +19,7 @@ p{
     font-size: 14px;
     letter-spacing: normal;
 }
-form dl dd {
+dl dd {
     padding: 10px ;
     margin: 0;
 }
