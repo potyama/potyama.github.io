@@ -1,27 +1,47 @@
 .Salary {
   background: #fff;
-  padding: 10px 30px;
 }
 
-input[type="checkbox"]:checked + .ex_salary {
-  display: inline-block;
-  margin-left: auto;
-  display: inline-block;
+.time,
+.count,
+.ex_count {
+  display: flex;
+  flex-wrap: row wrap;
+  width: 100%;
+}
+
+.time dt,
+.count dt,
+.ex_count dt {
+  flex-basis: 10%;
+  padding: 15px;
+  background-color: antiquewhite;
+  border-bottom: 1px solid #ccc;
+}
+
+.time dd,
+.count dd,
+.ex_count dd {
+  flex-basis: 20%;
+  padding: 15px;
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+}
+
+.normal,
+.ex,
+.result,
+h2 {
+  float: left;
+  flex-wrap: row wrap;
   vertical-align: top;
+  margin: 20px, 40px;
 }
 
-p {
-  font-size: 14px;
-  letter-spacing: normal;
-}
-dd {
-  padding: 10px;
-  margin: 0;
-}
 .box {
   box-sizing: border-box;
   width: 120px !important;
-  height: 30px !important;
+  height: 25px !important;
   margin: 0 !important;
   padding: 0 10px !important;
 }
