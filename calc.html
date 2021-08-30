@@ -6,9 +6,7 @@
     <link rel="stylesheet" href="css/clac.css" type="text/css">
     <script type="text/javascript" src="js/calc.js"></script>
 </head>
-
 <form class="Salary">
-    <input type="checkbox">
     <dl class ="time">
         <h2>時給を入力</h2>
         <p>研修などはその他に</p>
@@ -33,12 +31,21 @@
         <dt>集団 :</dt>
         <dd><input type="number" class="box" name="gr"></dd>
         <dt>前後給：</dt>
-        <dd><input type="number" class="box" name="ad_salary">
-        </dd>
-    </dl>
+        <dd><input type="number" class="box" name="ad_salary"></dd>
+        <h2>講習</h2>
+    <dt>45分 :</dt>
+    <dd><input type="number" class="box" name="ex_elem"></dd>
+    <dt>小、中 :</dt>
+    <dd><input type="number" class="box" name="ex_juni"></dd>
+    <dt>高 :</dt>
+    <dd><input type="number" class="box" name="ex_high"></dd>
+    <dt>前後給 :</dt>
+    <dd><input type="number" class="box" name="ex_salary"></dd>
+</dl>
+</form>
 
     <p><input type="button" class="calc-btn"
-            onclick="calc(elem.value, juni.value, high.value, gr.value, gr_per_hour.value, h_per_hour.value, sj_per_hour.value, ad_salary.value, ad_per_hour.value);"
+            onclick="calc(elem.value, juni.value, high.value, gr.value, ex_elem.value, ex_juni.value, ex_high.value,ex_salary.value1 , gr_per_hour.value, h_per_hour.value, sj_per_hour.value, ad_salary.value, ad_per_hour.value);"
             value="計算"></p>
     <dl>
         <dt>通常(45分):</dt>
@@ -49,12 +56,25 @@
         <dd><input id="third" class="box" type="text" readonly=""></dd>
         <dt>集団 :</dt>
         <dd><input id="fourth" class="box" type="text" readonly=""></dd>
-        <dt>前後給：</dt>
+        <dt>前後給(通常)：</dt>
         <dd><input id="ad_normal" class="box" type="text" readonly=""></dd>
-        <dt>合計：</dt>
+        <dt>講習(45分):</dt>
+        <dd><input id="fifth" class="box" type="text" readonly=""></dd>
+        <dt>講習(小,中):</dt>
+        <dd><input id="sixth" class="box" type="text" readonly=""></dd>
+        <dt>講習(高):</dt>
+        <dd><input id="seventh" class="box" type="text" readonly=""></dd>
+        <dt>前後給(講習)：</dt>
+        <dd><input id="ad_ex" class="box" type="text" readonly=""></dd>
+
+        <dt>合計(通常)：</dt>
+        <dd><input id="no_total" class="box" type="text" readonly=""></dd>
+        <dt>合計(通常)：</dt>
+        <dd><input id="ad_total" class="box" type="text" readonly=""></dd>
+        <dt>合計(通常)：</dt>
         <dd><input id="total" class="box" type="text" readonly=""></dd>
 
     </dl>
-</form>
+
 
 </html>

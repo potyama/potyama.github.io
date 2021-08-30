@@ -2,24 +2,23 @@
     background: #fff;
     padding: 10px 30px;
 }
-form{
+
+.ex_salary{
     display: none;
 }
 
-input[type="checkbox"]:checked + form{
+input[type="checkbox"]:checked + .ex_salary{
     display: inline-block;
-}
-
-dl, h2{
     margin-left: auto;
     display: inline-block;
     vertical-align: top;
 }
+
 p{
     font-size: 14px;
     letter-spacing: normal;
 }
-dl dd {
+dd {
     padding: 10px ;
     margin: 0;
 }
