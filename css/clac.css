@@ -1,39 +1,35 @@
 .Salary {
-    background: #fff;
-    padding: 10px 30px;
+  background: #fff;
+  padding: 10px 30px;
 }
 
-.ex_salary{
-    display: none;
+input[type="checkbox"]:checked + .ex_salary {
+  display: inline-block;
+  margin-left: auto;
+  display: inline-block;
+  vertical-align: top;
 }
 
-input[type="checkbox"]:checked + .ex_salary{
-    display: inline-block;
-    margin-left: auto;
-    display: inline-block;
-    vertical-align: top;
-}
-
-p{
-    font-size: 14px;
-    letter-spacing: normal;
+p {
+  font-size: 14px;
+  letter-spacing: normal;
 }
 dd {
-    padding: 10px ;
-    margin: 0;
+  padding: 10px;
+  margin: 0;
 }
 .box {
-    box-sizing: border-box;
-    width: 120px !important;
-    height: 30px !important;
-    margin: 0 !important;
-    padding: 0 10px !important;
+  box-sizing: border-box;
+  width: 120px !important;
+  height: 30px !important;
+  margin: 0 !important;
+  padding: 0 10px !important;
 }
 .calc-btn {
-    width: 80px;
-    height: 30px;
-    border: 1px solid #333;
+  width: 80px;
+  height: 30px;
+  border: 1px solid #333;
 }
 .calc-btn:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
