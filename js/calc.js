@@ -1,4 +1,4 @@
-    function calc(elem, jun, high, gr, ex_elem, ex_juni, ex_salary, gr_per_hour, h_per_hour, sj_per_hour, ad_salary, ad_per_hour) {
+    function calc(elem, jun, high, gr, ex_elem, ex_juni, ex_high, ex_salary, gr_per_hour, h_per_hour, sj_per_hour, ad_salary, ad_per_hour) {
         const ele_val = document.getElementById('first').value = Math.round(elem * (sj_per_hour * 0.75));
         const jun_val = document.getElementById('second').value = Math.round(jun * (sj_per_hour * 1.5));
         const high_val = document.getElementById('third').value = Math.round(high * (h_per_hour * 1.5));
