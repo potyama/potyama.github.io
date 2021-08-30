@@ -1,0 +1,34 @@
+.Salary {
+    background: #fff;
+    padding: 10px 30px;
+}
+
+
+dl, h2{
+    margin-left: auto;
+    display: inline-block;
+    vertical-align: top;
+}
+p{
+    font-size: 14px;
+    letter-spacing: normal;
+}
+form dl dd {
+    padding: 10px ;
+    margin: 0;
+}
+.box {
+    box-sizing: border-box;
+    width: 120px !important;
+    height: 30px !important;
+    margin: 0 !important;
+    padding: 0 10px !important;
+}
+.calc-btn {
+    width: 80px;
+    height: 30px;
+    border: 1px solid #333;
+}
+.calc-btn:hover {
+    cursor: pointer;
+}
