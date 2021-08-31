@@ -2,42 +2,6 @@
   background: #fff;
 }
 
-.time,
-.count,
-.ex_count {
-  display: flex;
-  flex-wrap: row wrap;
-  width: 100%;
-}
-
-.time dt,
-.count dt,
-.ex_count dt {
-  flex-basis: 10%;
-  padding: 20px;
-  background-color: antiquewhite;
-  border-bottom: 1px solid #ccc;
-}
-
-.time dd,
-.count dd,
-.ex_count dd {
-  flex-basis: 20%;
-  padding: 15px;
-  background-color: #fff;
-  border-bottom: 1px solid #ccc;
-}
-
-.normal,
-.ex,
-.result,
-h2 {
-  float: left;
-  flex-wrap: wrap;
-  vertical-align: top;
-  margin: 20px, 40px;
-}
-
 .box {
   box-sizing: border-box;
   width: 120px !important;
@@ -97,7 +61,7 @@ h2 {
   .box {
     box-sizing: border-box;
     width: 120px !important;
-    height: 25px !important;
+    height: 30px !important;
     margin: 0 !important;
     padding: 0 10px !important;
   }
