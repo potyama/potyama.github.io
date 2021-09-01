@@ -44,8 +44,12 @@
         <dd><input type="number" class="box" name="high" /></dd>
         <dt>集団 :</dt>
         <dd><input type="number" class="box" name="gr" /></dd>
-        <dt>前後給：</dt>
+        <dt>前後給(分単位)：</dt>
         <dd><input type="number" class="box" name="ad_salary" /></dd>
+        <dt>事務給(分単位)：</dt>
+        <dd><input type="number" class="box" name="jimu" /></dd>
+        <dt>研修(分単位)：</dt>
+        <dd><input type="number" class="box" name="kensyu" /></dd>
       </dl>
       <h2>講習</h2>
       <dl class="ex_count">
@@ -57,13 +61,15 @@
         <dd><input type="number" class="box" name="ex_high" /></dd>
         <dt>前後給 :</dt>
         <dd><input type="number" class="box" name="ex_salary" /></dd>
+        <dt>集団 :</dt>
+        <dd><input type="number" class="box" name="ex_gr" /></dd>
       </dl>
 
       <p>
         <input
           type="button"
           class="calc-btn"
-          onclick="calc(elem.value, juni.value, high.value, gr.value, ex_elem.value, ex_juni.value, ex_high.value, ex_salary.value , gr_per_hour.value, h_per_hour.value, sj_per_hour.value, ad_salary.value, ad_per_hour.value);"
+          onclick="calc(elem.value, juni.value, high.value, gr.value, jimu.value, kensyu.value, ex_gr.value.value, ex_juni.value, ex_high.value, ex_salary.value , gr_per_hour.value, h_per_hour.value, sj_per_hour.value, ad_salary.value, ad_per_hour.value);"
           value="計算"
         />
       </p>
