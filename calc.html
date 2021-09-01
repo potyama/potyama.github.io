@@ -38,6 +38,8 @@
       <dl class="count">
         <dt>45分 :</dt>
         <dd><input type="number" class="box" name="elem" /></dd>
+        <dt>60分 :</dt>
+        <dd><input type="number" class="box" name="tai" /></dd>
         <dt>小、中学生 :</dt>
         <dd><input type="number" class="box" name="juni" /></dd>
         <dt>高校生 :</dt>
@@ -48,7 +50,7 @@
         <dd><input type="number" class="box" name="ad_salary" /></dd>
         <dt>事務給(分単位)：</dt>
         <dd><input type="number" class="box" name="jimu" /></dd>
-        <dt>研修(分単位)：</dt>
+        <dt>研修費(分単位)：</dt>
         <dd><input type="number" class="box" name="kensyu" /></dd>
       </dl>
       <h2>講習</h2>
@@ -59,7 +61,7 @@
         <dd><input type="number" class="box" name="ex_juni" /></dd>
         <dt>高 :</dt>
         <dd><input type="number" class="box" name="ex_high" /></dd>
-        <dt>前後給 :</dt>
+        <dt>前後給(分単位) :</dt>
         <dd><input type="number" class="box" name="ex_salary" /></dd>
         <dt>集団 :</dt>
         <dd><input type="number" class="box" name="ex_gr" /></dd>
@@ -69,31 +71,56 @@
         <input
           type="button"
           class="calc-btn"
-          onclick="calc(elem.value, juni.value, high.value, gr.value, jimu.value, kensyu.value, ex_gr.value.value, ex_juni.value, ex_high.value, ex_salary.value , gr_per_hour.value, h_per_hour.value, sj_per_hour.value, ad_salary.value, ad_per_hour.value);"
+          onclick="calc(elem.value,
+                        tai.value,
+                        juni.value,
+                        high.value,
+                        gr.value,
+                        jimu.value,
+                        kensyu.value,
+                        ex_gr.value,
+                        ex_elem.value,
+                        ex_juni.value,
+                        ex_high.value,
+                        ex_salary.value,
+                        gr_per_hour.value,
+                        h_per_hour.value,
+                        sj_per_hour.value,
+                        ad_salary.value,
+                        ad_per_hour.value
+            );"
           value="計算"
         />
       </p>
       <dl class="normal">
         <dt>通常(45分):</dt>
         <dd><input id="first" class="box" type="text" readonly="" /></dd>
+        <dt>体験授業(60分):</dt>
+        <dd><input id="taiken" class="box" type="text" readonly="" /></dd>
         <dt>通常(小,中):</dt>
         <dd><input id="second" class="box" type="text" readonly="" /></dd>
         <dt>通常(高):</dt>
         <dd><input id="third" class="box" type="text" readonly="" /></dd>
         <dt>集団 :</dt>
         <dd><input id="fourth" class="box" type="text" readonly="" /></dd>
-      </dl>
-      <dl class="ex">
         <dt>前後給(通常)：</dt>
         <dd><input id="ad_normal" class="box" type="text" readonly="" /></dd>
-        <dt>講習(45分):</dt>
+        <dt>事務給：</dt>
         <dd><input id="fifth" class="box" type="text" readonly="" /></dd>
-        <dt>講習(小,中):</dt>
+        <dt>研修費：</dt>
         <dd><input id="sixth" class="box" type="text" readonly="" /></dd>
-        <dt>講習(高):</dt>
+      </dl>
+      <dl class="ex">
+        <dt>講習(45分):</dt>
         <dd><input id="seventh" class="box" type="text" readonly="" /></dd>
+        <dt>講習(小,中):</dt>
+        <dd><input id="eighth" class="box" type="text" readonly="" /></dd>
+        <dt>講習(高):</dt>
+        <dd><input id="ninth" class="box" type="text" readonly="" /></dd>
         <dt>前後給(講習)：</dt>
         <dd><input id="ad_ex" class="box" type="text" readonly="" /></dd>
+        <dt>集団:</dt>
+        <dd><input id="tenth" class="box" type="text" readonly="" /></dd>
       </dl>
       <dl class="result">
         <dt>合計(通常)：</dt>
