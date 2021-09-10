@@ -19,3 +19,6 @@ function calc(elem, taiken, jun, high, gr, jimu, kensyu, ex_gr, ex_elem, ex_juni
     const ad_total_val = document.getElementById('ad_total').value = Math.round(ex_ele_val + ex_jun_val + ex_high_val + ex_gr_val + ad_ex_val);
     const total_val = document.getElementById('total').value = Math.round(no_total_val + ad_total_val);
 }
+$(function() {
+    $('html,body').animate({ scrollTop: 0 }, '1');
+});
