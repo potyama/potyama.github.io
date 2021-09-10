@@ -1,77 +1,73 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"
-    />
 
-    <link rel="stylesheet" href="css/clac.css" type="text/css" />
-    <script type="text/javascript" src="js/calc.js"></script>
-  </head>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
 
-  <body>
-    <h1>使い方</h1>
-    <ol>
-      <li>
-        それぞれの空欄に数字を入力してください。コマがないところや行っていない授業の時給は入力しなくて大丈夫です。
-      </li>
-      <li>下にある計算ボタンを押してください</li>
-      <li>計算ボタンの下に計算結果が表示されます。</li>
-    </ol>
-    <p>なにか不具合や計算結果が合わない場合は教えてください。</p>
-    <form class="Salary">
-      <h2>時給</h2>
-      <dl class="time">
-        <dt>通常(小、中)：</dt>
-        <dd><input type="number" class="box" name="sj_per_hour" /></dd>
-        <dt>通常(高)：</dt>
-        <dd><input type="number" class="box" name="h_per_hour" /></dd>
-        <dt>集団：</dt>
-        <dd><input type="number" class="box" name="gr_per_hour" /></dd>
-        <dt>その他(研修費など)</dt>
-        <dd><input type="number" class="box" name="ad_per_hour" /></dd>
-      </dl>
-      <h2>通常コマ数</h2>
+  <link rel="stylesheet" href="css/clac.css" type="text/css" />
+  <script type="text/javascript" src="js/calc.js"></script>
+</head>
 
-      <dl class="count">
-        <dt>45分 :</dt>
-        <dd><input type="number" class="box" name="elem" /></dd>
-        <dt>60分 :</dt>
-        <dd><input type="number" class="box" name="tai" /></dd>
-        <dt>小、中学生 :</dt>
-        <dd><input type="number" class="box" name="juni" /></dd>
-        <dt>高校生 :</dt>
-        <dd><input type="number" class="box" name="high" /></dd>
-        <dt>集団 :</dt>
-        <dd><input type="number" class="box" name="gr" /></dd>
-        <dt>前後給(分単位)：</dt>
-        <dd><input type="number" class="box" name="ad_salary" /></dd>
-        <dt>事務給(分単位)：</dt>
-        <dd><input type="number" class="box" name="jimu" /></dd>
-        <dt>研修費(分単位)：</dt>
-        <dd><input type="number" class="box" name="kensyu" /></dd>
-      </dl>
-      <h2>講習: <input type="checkbox"></h2>
-      <dl class="ex_count">
-        <dt>45分 :</dt>
-        <dd><input type="number" class="box" name="ex_elem" /></dd>
-        <dt>小、中 :</dt>
-        <dd><input type="number" class="box" name="ex_juni" /></dd>
-        <dt>高 :</dt>
-        <dd><input type="number" class="box" name="ex_high" /></dd>
-        <dt>前後給(分単位) :</dt>
-        <dd><input type="number" class="box" name="ex_salary" /></dd>
-        <dt>集団 :</dt>
-        <dd><input type="number" class="box" name="ex_gr" /></dd>
-      </dl>
+<body>
+  <h1>使い方</h1>
+  <ol>
+    <li>
+      それぞれの空欄に数字を入力してください。コマがないところや行っていない授業の時給は入力しなくて大丈夫です。
+    </li>
+    <li>下にある計算ボタンを押してください</li>
+    <li>計算ボタンの下に計算結果が表示されます。</li>
+  </ol>
+  <p>なにか不具合や計算結果が合わない場合は教えてください。</p>
+  <form class="Salary">
+    <h2>時給</h2>
+    <dl class="time">
+      <dt>通常(小、中)：</dt>
+      <dd><input type="number" class="box" name="sj_per_hour" /></dd>
+      <dt>通常(高)：</dt>
+      <dd><input type="number" class="box" name="h_per_hour" /></dd>
+      <dt>集団：</dt>
+      <dd><input type="number" class="box" name="gr_per_hour" /></dd>
+      <dt>その他(研修費など)</dt>
+      <dd><input type="number" class="box" name="ad_per_hour" /></dd>
+    </dl>
+    <h2>通常コマ数</h2>
 
-      <p>
-        <input
-          type="button"
-          class="calc-btn"
-          onclick="calc(elem.value,
+    <dl class="count">
+      <dt>45分 :</dt>
+      <dd><input type="number" class="box" name="elem" /></dd>
+      <dt>60分 :</dt>
+      <dd><input type="number" class="box" name="tai" /></dd>
+      <dt>小、中学生 :</dt>
+      <dd><input type="number" class="box" name="juni" /></dd>
+      <dt>高校生 :</dt>
+      <dd><input type="number" class="box" name="high" /></dd>
+      <dt>集団 :</dt>
+      <dd><input type="number" class="box" name="gr" /></dd>
+      <dt>前後給(分単位)：</dt>
+      <dd><input type="number" class="box" name="ad_salary" /></dd>
+      <dt>事務給(分単位)：</dt>
+      <dd><input type="number" class="box" name="jimu" /></dd>
+      <dt>研修費(分単位)：</dt>
+      <dd><input type="number" class="box" name="kensyu" /></dd>
+    </dl>
+    <h2>講習: <input type="checkbox"></h2>
+    <dl class="ex_count">
+      <dt>45分 :</dt>
+      <dd><input type="number" class="box" name="ex_elem" /></dd>
+      <dt>小、中 :</dt>
+      <dd><input type="number" class="box" name="ex_juni" /></dd>
+      <dt>高 :</dt>
+      <dd><input type="number" class="box" name="ex_high" /></dd>
+      <dt>前後給(分単位) :</dt>
+      <dd><input type="number" class="box" name="ex_salary" /></dd>
+      <dt>集団 :</dt>
+      <dd><input type="number" class="box" name="ex_gr" /></dd>
+    </dl>
+
+    <p>
+      <input type="button" class="calc-btn" onclick="calc(elem.value,
                         tai.value,
                         juni.value,
                         high.value,
@@ -88,49 +84,48 @@
                         sj_per_hour.value,
                         ad_salary.value,
                         ad_per_hour.value
-            );"
-          value="計算"
-        />
-      </p>
-      <dl class="normal">
-        <dt>通常(45分):</dt>
-        <dd><input id="first" class="box" type="text" readonly="" /></dd>
-        <dt>体験授業(60分):</dt>
-        <dd><input id="taiken" class="box" type="text" readonly="" /></dd>
-        <dt>通常(小,中):</dt>
-        <dd><input id="second" class="box" type="text" readonly="" /></dd>
-        <dt>通常(高):</dt>
-        <dd><input id="third" class="box" type="text" readonly="" /></dd>
-        <dt>集団 :</dt>
-        <dd><input id="fourth" class="box" type="text" readonly="" /></dd>
-        <dt>前後給(通常)：</dt>
-        <dd><input id="ad_normal" class="box" type="text" readonly="" /></dd>
-        <dt>事務給：</dt>
-        <dd><input id="fifth" class="box" type="text" readonly="" /></dd>
-        <dt>研修費：</dt>
-        <dd><input id="sixth" class="box" type="text" readonly="" /></dd>
-      </dl>
-      <dl class="ex">
-        <dt>講習(45分):</dt>
-        <dd><input id="seventh" class="box" type="text" readonly="" /></dd>
-        <dt>講習(小,中):</dt>
-        <dd><input id="eighth" class="box" type="text" readonly="" /></dd>
-        <dt>講習(高):</dt>
-        <dd><input id="ninth" class="box" type="text" readonly="" /></dd>
-        <dt>集団:</dt>
-        <dd><input id="tenth" class="box" type="text" readonly="" /></dd>
-        <dt>前後給(講習)：</dt>
-        <dd><input id="ad_ex" class="box" type="text" readonly="" /></dd>
+            );" value="計算" />
+    </p>
+    <dl class="normal">
+      <dt>通常(45分):</dt>
+      <dd><input id="first" class="box" type="text" readonly="" /></dd>
+      <dt>体験授業(60分):</dt>
+      <dd><input id="taiken" class="box" type="text" readonly="" /></dd>
+      <dt>通常(小,中):</dt>
+      <dd><input id="second" class="box" type="text" readonly="" /></dd>
+      <dt>通常(高):</dt>
+      <dd><input id="third" class="box" type="text" readonly="" /></dd>
+      <dt>集団 :</dt>
+      <dd><input id="fourth" class="box" type="text" readonly="" /></dd>
+      <dt>前後給(通常)：</dt>
+      <dd><input id="ad_normal" class="box" type="text" readonly="" /></dd>
+      <dt>事務給：</dt>
+      <dd><input id="fifth" class="box" type="text" readonly="" /></dd>
+      <dt>研修費：</dt>
+      <dd><input id="sixth" class="box" type="text" readonly="" /></dd>
+    </dl>
+    <dl class="ex">
+      <dt>講習(45分):</dt>
+      <dd><input id="seventh" class="box" type="text" readonly="" /></dd>
+      <dt>講習(小,中):</dt>
+      <dd><input id="eighth" class="box" type="text" readonly="" /></dd>
+      <dt>講習(高):</dt>
+      <dd><input id="ninth" class="box" type="text" readonly="" /></dd>
+      <dt>集団:</dt>
+      <dd><input id="tenth" class="box" type="text" readonly="" /></dd>
+      <dt>前後給(講習)：</dt>
+      <dd><input id="ad_ex" class="box" type="text" readonly="" /></dd>
 
-      </dl>
-      <dl class="result">
-        <dt>合計(通常)：</dt>
-        <dd><input id="no_total" class="box" type="text" readonly="" /></dd>
-        <dt>合計(講習)：</dt>
-        <dd><input id="ad_total" class="box" type="text" readonly="" /></dd>
-        <dt>合計：</dt>
-        <dd><input id="total" class="box" type="text" readonly="" /></dd>
-      </dl>
-    </form>
-  </body>
+    </dl>
+    <dl class="result">
+      <dt>合計(通常)：</dt>
+      <dd><input id="no_total" class="box" type="text" readonly="" /></dd>
+      <dt>合計(講習)：</dt>
+      <dd><input id="ad_total" class="box" type="text" readonly="" /></dd>
+      <dt>合計：</dt>
+      <dd><input id="total" class="box" type="text" readonly="" /></dd>
+    </dl>
+  </form>
+</body>
+
 </html>
