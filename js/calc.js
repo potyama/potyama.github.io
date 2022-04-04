@@ -13,7 +13,7 @@ function calc(elem, taiken, jun, high, gr, jimu, kensyu, ex_gr, ex_elem, ex_juni
     const ex_jun_val = document.getElementById('eighth').value = Math.round(ex_juni * (sj_per_hour * 1.5));
     const ex_high_val = document.getElementById('ninth').value = Math.round(ex_high * (h_per_hour * 1.5));
     const ex_gr_val = document.getElementById('tenth').value = Math.round(ex_gr * gr_per_hour);
-    const ad_ex_val = document.getElementById('ad_ex').value = Math.round((Math.ceil(((ex_salary) / 60) * 100) / 100) * 930);
+    const ad_ex_val = document.getElementById('ad_ex').value = Math.round((Math.ceil(((ex_salary) / 60) * 100) / 100) * ad_per_hour);
     //それぞれの合計
     const no_total_val = document.getElementById('no_total').value = Math.round(ele_val + jun_val + high_val + gr_val + jimu_val + kensyu_val + taiken_val + ad_normal_val);
     const ad_total_val = document.getElementById('ad_total').value = Math.round(ex_ele_val + ex_jun_val + ex_high_val + ex_gr_val + ad_ex_val);
