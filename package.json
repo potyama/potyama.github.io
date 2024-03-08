@@ -1,0 +1,17 @@
+{
+  "name": "potyama.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/potyama/potyama.github.io.git",
+  "author": "potyama",
+  "license": "MIT",
+  "dependencies": {
+    "-": "^0.0.1",
+    "D": "^1.0.0",
+    "vuepress": "^1.9.10"
+  },
+  "scripts": {
+    "src:dev": "vuepress dev src",
+    "src:build": "vuepress build src"
+  }
+}
