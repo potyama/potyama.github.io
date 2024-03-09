@@ -10,6 +10,6 @@ module.exports = {
     ]
   },
   dest: 'docs/',
-  base: '/potyama.github.io/',
+  base: '/',
 }
 
