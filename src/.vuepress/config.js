@@ -9,7 +9,7 @@ module.exports = {
       { text: 'Who am I?', link: '/intro_en.md' },
     ]
   },
-  dest: 'docs/',
-  base: '/',
+  dest: 'docs',
+  base: '/'
 }
 
