@@ -1,0 +1,14 @@
+[[main]]
+  name = "ホーム"
+  pageRef = "/"
+  weight = 10
+
+[[main]]
+  name = "記事"
+  pageRef = "/posts"
+  weight = 20
+
+[[main]]
+  name = "このサイトについて"
+  pageRef = "/about"
+  weight = 30

@@ -1,0 +1,23 @@
+colorScheme = "blowfish"
+defaultAppearance = "dark"
+autoSwitchAppearance = true
+
+enableSearch = true
+enableCodeCopy = true
+
+mainSections = ["posts"]
+description = "CTF / Crypto / Security Portfolio"
+
+[homepage]
+  layout = "profile"
+  showRecent = true
+  recentLimit = 6
+
+[article]
+  showDate = true
+  showReadingTime = true
+  showTaxonomies = true
+  showWordCount = false
+  showBreadcrumbs = true
+  showTableOfContents = true
+  showAuthor = false

@@ -1,0 +1,11 @@
+theme = "blowfish"
+
+defaultContentLanguage = "ja"
+defaultContentLanguageInSubdir = true
+
+enableRobotsTXT = true
+summaryLength = 0
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
