@@ -1,14 +1,14 @@
 [[main]]
-  name = "ホーム"
+  name = "home"
   pageRef = "/"
   weight = 10
 
 [[main]]
-  name = "記事"
-  pageRef = "/posts"
+  name = "Whoami"
+  pageRef = "/whoami"
   weight = 20
 
-[[main]]
-  name = "このサイトについて"
-  pageRef = "/about"
+  [[main]]
+  name = "blogs"
+  pageRef = "/posts"
   weight = 30
